@@ -1,0 +1,7 @@
+$ cat .gitignore
+# exclude everything except directory foo/bar
+/*
+!.gitignore
+!Master.c
+!Propeller.pdsprj
+!README.md
