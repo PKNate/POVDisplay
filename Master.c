@@ -19,7 +19,7 @@ void fflush();
 
 void main()
 {
-   char c;
+   char s[20];
    
    delay_ms(1000);
    
@@ -44,12 +44,13 @@ void main()
    
    while(true)
    {
-     /*if(kbhit())
+     if(kbhit())
       {
-         c=getc();
-         printf("Recibi un: %c",c);
-      }*/
+         gets(s);
+         printf("Recibi un: %s\r\n",s);
+      }
       
+      /*
       output_toggle(PIN_B0);
       output_toggle(PIN_B1);
       output_toggle(PIN_B2);
@@ -59,6 +60,8 @@ void main()
       output_toggle(PIN_B6);
       output_toggle(PIN_B7);
       delay_ms(1000);
+      
+      fflush();*/
    }
 }
 

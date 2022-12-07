@@ -3,5 +3,6 @@ $ cat .gitignore
 /*
 !.gitignore
 !Master.c
+!Motortest.c
 !Propeller.pdsprj
 !README.md
