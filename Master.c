@@ -67,7 +67,7 @@ void main()
    {
       switch (c)
       {
-         case 'a':
+         case 0xA6:
          {
             // T
             PORTB=0b00000001;
@@ -135,7 +135,7 @@ void main()
             break;
          }
          
-         case 'b':
+         case 0x66:
          {
             // E      
             PORTB=0b11111111;
@@ -218,7 +218,7 @@ void main()
             break;
          }
          
-         case 'c':
+         case 0xE6:
          {
             // C
             PORTB=0b11111111;
